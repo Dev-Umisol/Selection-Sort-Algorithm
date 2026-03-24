@@ -1,5 +1,9 @@
 def selection_sort(lst):
     
-    # Base case for recursion
-    if len(lst) <= 1:
-        return lst
+    for i in range(len(lst)):
+        min_index = i
+        
+        for j in range(i+1, len(lst)):
+            if lst[j] < lst[min_index]:
+                pass
+            
